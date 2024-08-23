@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/Frame.svg",
+      "PackagePath": "staticwebassets/Frame.svg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/home.png",
+      "PackagePath": "staticwebassets/home.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/menu.svg",
+      "PackagePath": "staticwebassets/menu.svg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.EsquinaCanela.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.EsquinaCanela.props",
+      "PackagePath": "build\\EsquinaCanela.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.EsquinaCanela.props",
+      "PackagePath": "buildMultiTargeting\\EsquinaCanela.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.EsquinaCanela.props",
+      "PackagePath": "buildTransitive\\EsquinaCanela.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
