@@ -1,0 +1,27 @@
+﻿.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  border-radius: 20px; 
+  margin: 15px auto; 
+  width: 250px;
+}
+
+.item {
+  width: 300px;
+  height: 450px;
+  background: red;
+  flex-grow: 1;
+
+  background-size: cover; background-position: top; background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .item {
+    border: 1px;
+    border-color: red;
+    width: 200px;
+  }
+}

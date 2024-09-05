@@ -1,0 +1,14 @@
+﻿@* <div class="item" style="@($"background-image: url('{Src}');")"> *@
+<div class="item">
+  <img src="@Src" alt="@Title @Description"/>
+  <div class="text">
+    <p class="title retroSignature-m">@Title</p>
+    <p class="description">@Description</p>
+  </div>
+</div>
+
+@code {
+  [Parameter] public required string? Title { get; set; }
+  [Parameter] public required string? Description { get; set; }
+  [Parameter] public required string? Src { get; set; }
+}

@@ -1,0 +1,35 @@
+﻿<div class="image" style='@_style'>
+  
+  @if(BottomLeft){
+    <div class="bottom-left">@ChildContent</div>
+  }
+
+  @if(Centered){
+    <div class="centered">@ChildContent</div>
+  }
+</div>
+
+@code {
+    [Parameter] public required RenderFragment ChildContent { get; set; }
+    [Parameter] public required string? Src { get; set; }
+    [Parameter] public string? Height { get; set; } = "90vh";
+    [Parameter] public string? GradientEnd { get; set; } = "transparent";
+    [Parameter] public bool BottomLeft { get; set; }
+    [Parameter] public bool Centered { get; set; }
+    
+    private string? _style;
+
+    protected override void OnInitialized() {
+      _style = 
+        $"background: linear-gradient(to top right, black, {GradientEnd}), url('{Src}');"
+        + $"background-size: cover;"
+        + $"background-position: top;"
+        + $"background-repeat: no-repeat;"
+        + $"height: {Height};";
+    }
+
+    public enum TextPosition{
+      BottomLeft,
+      Center,
+    }
+}

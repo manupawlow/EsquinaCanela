@@ -1,0 +1,17 @@
+﻿<div class="flex-container">
+  <div class="flex-item-left">
+    <MudImage Src="images/inside.jpg" ObjectFit="ObjectFit.Cover" style="width: 100%; height: 100%;" />
+  </div>
+  <div class="flex-item-right" style="color: white;">
+    <MudStack Justify="Justify.SpaceEvenly" StretchItems="StretchItems.None" AlignItems="AlignItems.Stretch" style="height: 100%;">
+      <p class="title retroSignature-m">Recomendados</p>
+      <hr style="font-size: 60px; border-bottom: 1px solid #4aa6b1; width: 100%;">
+      @ChildContent
+      <MudButton Color="Color.Primary" Variant="Variant.Filled" style="border-radius: 20px; margin: 15px auto; width: 250px;">Ver menú completo</MudButton>
+    </MudStack>
+  </div>
+</div>
+
+@code {
+  [Parameter]public RenderFragment ChildContent { get; set; }
+}

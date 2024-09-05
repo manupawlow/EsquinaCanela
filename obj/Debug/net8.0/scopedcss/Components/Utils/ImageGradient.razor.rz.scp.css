@@ -1,0 +1,25 @@
+.image[b-rnbe3ed3fk] {
+    position: relative;
+    width: 100%;
+}
+
+.bottom-left[b-rnbe3ed3fk] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.centered[b-rnbe3ed3fk] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

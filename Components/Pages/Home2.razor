@@ -1,0 +1,75 @@
+﻿@page "/2"
+
+<PageTitle>Esquina Canela</PageTitle>
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-left: -128px;
+  margin-right: -128px;
+  margin-bottom: 64px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 128px;
+}
+
+.imagen-con-gradiente {
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to top right, black, transparent), url('home.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.imagen-con-gradiente-2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, black, #0007), url('images/footer.jpeg');
+    background-size: cover;
+    background-position: center;
+    object-position: bottom;
+}
+</style>
+
+<Banner />
+
+<MudText Class="retroSignature" Style="margin: auto 0; font-size: 120px; text-align: center;">Conocé las tortas</MudText>
+
+<MudStack Row Style="margin-bottom: 100px;">
+    <MudCard Style="border-radious: 15px;">
+        <MudCardMedia Image="images/carrot-cake.png" Height="200" />
+        <MudCardContent>
+            <MudText Typo="Typo.h5">Old Paint</MudText>
+        </MudCardContent>
+    </MudCard>
+
+    <MudCard>
+        <MudCardContent>
+            <MudImage Src="images/carrot-cake.png" style="border-radius: 50%; margin-top: -100px;" Width="200" Height="200" />
+            <MudText Typo="Typo.h5">Old Paint</MudText>
+        </MudCardContent>
+    </MudCard>
+</MudStack>
+
+@* <MudCarousel Class="mud-width-full" Style="height:500px;" ShowArrows="true" ShowBullets="false" TData="object">
+    <MudCarouselItem Transition="Transition.Slide" Color="@Color.Primary">
+        <MudStack StretchItems="StretchItems.All" Row>
+            <MudImage Src="images/oreo-cake.jpeg" style="width: 33%;"></MudImage>
+            <MudImage Src="images/marquise-cake.jpg" style="width: 34%;"></MudImage>
+            <MudImage Src="images/rogel-cake.jpeg" style="width: 33%;"></MudImage>
+        </MudStack>
+    </MudCarouselItem>
+</MudCarousel> *@
+
+<CakeCarouselItem ImageSrc="images/oreo-cake.jpeg" />
+
+<CakeCarousel />
+
+<Recomended />
+
+<Footer />

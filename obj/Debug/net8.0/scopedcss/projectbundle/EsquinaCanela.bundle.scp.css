@@ -1,0 +1,145 @@
+/* _content/EsquinaCanela/Components/Utils/Gallery.razor.rz.scp.css */
+.container[b-8a19x14zne] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button[b-8a19x14zne] {
+  border-radius: 20px; 
+  margin: 15px auto; 
+  width: 250px;
+}
+
+.item[b-8a19x14zne] {
+  width: 300px;
+  height: 450px;
+  background: red;
+  flex-grow: 1;
+
+  background-size: cover; background-position: top; background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .item[b-8a19x14zne] {
+    border: 1px;
+    border-color: red;
+    width: 200px;
+  }
+}
+/* _content/EsquinaCanela/Components/Utils/GalleryItem.razor.rz.scp.css */
+img[b-4vrmhc1eho] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: 0.3s ease;
+}
+
+.text[b-4vrmhc1eho] {
+  color: white;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.title[b-4vrmhc1eho] {
+  padding-bottom: 10px;
+}
+
+.item[b-4vrmhc1eho] {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  flex-grow: 1;
+
+  text-align: center;
+  align-content: center;
+  
+  background-color:#000;
+  /* background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-image: url('images/oreo-cake.jpeg'); */
+}
+
+.item:hover img[b-4vrmhc1eho] {
+  opacity: 0.3;
+}
+
+.item:hover .text[b-4vrmhc1eho]{
+  opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .item[b-4vrmhc1eho] {
+    width: 200px;
+  }
+}
+/* _content/EsquinaCanela/Components/Utils/ImageGradient.razor.rz.scp.css */
+.image[b-rnbe3ed3fk] {
+    position: relative;
+    width: 100%;
+}
+
+.bottom-left[b-rnbe3ed3fk] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.centered[b-rnbe3ed3fk] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* _content/EsquinaCanela/Components/Utils/Recommended.razor.rz.scp.css */
+.flex-container[b-ody2pd6t4v] {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin: 50px auto; 
+  width: 90vw;
+  border-radius: 20px;
+}
+
+.flex-item-left[b-ody2pd6t4v] {
+  background-color: #f1f1f1;
+  flex: 40%;
+}
+
+.flex-item-right[b-ody2pd6t4v] {
+  background-color: #262626;
+  padding: 25px;
+  flex: 60%;
+}
+
+.title[b-ody2pd6t4v] {
+  font-size: 90px;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right[b-ody2pd6t4v], .flex-item-left[b-ody2pd6t4v] {
+    flex: 100%;
+  }
+
+  .title[b-ody2pd6t4v] {
+    font-size: 70px;
+  }
+}
