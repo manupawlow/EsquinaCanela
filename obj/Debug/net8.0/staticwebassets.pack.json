@@ -1,24 +1,240 @@
 {
   "Files": [
     {
-      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/Frame.svg",
-      "PackagePath": "staticwebassets/Frame.svg"
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Debug/net8.0/scopedcss/projectbundle/EsquinaCanela.bundle.scp.css",
+      "PackagePath": "staticwebassets/EsquinaCanela.bundle.scp.css"
     },
     {
-      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/favicon.ico",
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/css/fonts.css",
+      "PackagePath": "staticwebassets/css/fonts.css"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/home.png",
-      "PackagePath": "staticwebassets/home.png"
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonBase.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonBase.ttf"
     },
     {
-      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/logo.png",
-      "PackagePath": "staticwebassets/logo.png"
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonBaseDrop.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonBaseDrop.ttf"
     },
     {
-      "Id": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/wwwroot/menu.svg",
-      "PackagePath": "staticwebassets/menu.svg"
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDots.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDots.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropExtrude.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropExtrude.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropExtrudeSolo.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropExtrudeSolo.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropLine.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropLine.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropLineSolo.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropLineSolo.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropShadow.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropShadow.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropShadowSolo.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropShadowSolo.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropStripesA.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropStripesA.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropStripesASolo.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropStripesASolo.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropStripesB.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropStripesB.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonDropStripesBSolo.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonDropStripesBSolo.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrasFlourishes.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrasFlourishes.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrasOrnaments.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrasOrnaments.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrude.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrude.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrudeOutline.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrudeOutline.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrudeShadeA.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrudeShadeA.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrudeShadeB.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrudeShadeB.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrudeShadeC.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrudeShadeC.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonExtrudeShadow.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonExtrudeShadow.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonInline.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonInline.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonLine.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonLine.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonLineBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonLineBold.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonLineMedium.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonLineMedium.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonMarquee.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonMarquee.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonOutlineBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonOutlineBold.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonOutlineLight.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonOutlineLight.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonOutlineMedium.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonOutlineMedium.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonScriptBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonScriptBold.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonScriptLight.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonScriptLight.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonStripesA.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonStripesA.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonStripesB.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonStripesB.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/Bourton/BourtonStripesC.ttf",
+      "PackagePath": "staticwebassets/fonts/Bourton/BourtonStripesC.ttf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/fonts/RetroSignature/RetroSignature.otf",
+      "PackagePath": "staticwebassets/fonts/RetroSignature/RetroSignature.otf"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/home.jpg",
+      "PackagePath": "staticwebassets/home.jpg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/2023-06-08.jpg",
+      "PackagePath": "staticwebassets/images/2023-06-08.jpg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/carrot-cake.png",
+      "PackagePath": "staticwebassets/images/carrot-cake.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/cheese-cake.jpeg",
+      "PackagePath": "staticwebassets/images/cheese-cake.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/cookies.png",
+      "PackagePath": "staticwebassets/images/cookies.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/ddl-cake.png",
+      "PackagePath": "staticwebassets/images/ddl-cake.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/facebook-icon.svg",
+      "PackagePath": "staticwebassets/images/facebook-icon.svg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/footer.jpeg",
+      "PackagePath": "staticwebassets/images/footer.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/inside.jpg",
+      "PackagePath": "staticwebassets/images/inside.jpg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/instagram-icon.svg",
+      "PackagePath": "staticwebassets/images/instagram-icon.svg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/lemon-cake.jpeg",
+      "PackagePath": "staticwebassets/images/lemon-cake.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/lemonslice-cake.jpeg",
+      "PackagePath": "staticwebassets/images/lemonslice-cake.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/marquise-cake.jpg",
+      "PackagePath": "staticwebassets/images/marquise-cake.jpg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/oreo-cake.jpeg",
+      "PackagePath": "staticwebassets/images/oreo-cake.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/ricota.png",
+      "PackagePath": "staticwebassets/images/ricota.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/rogel-cake.jpeg",
+      "PackagePath": "staticwebassets/images/rogel-cake.jpeg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/roll.png",
+      "PackagePath": "staticwebassets/images/roll.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/scon-jyq.png",
+      "PackagePath": "staticwebassets/images/scon-jyq.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/images/tartas.png",
+      "PackagePath": "staticwebassets/images/tartas.png"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/logo.svg",
+      "PackagePath": "staticwebassets/logo.svg"
+    },
+    {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/logo_2.svg",
+      "PackagePath": "staticwebassets/logo_2.svg"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.EsquinaCanela.Microsoft.AspNetCore.StaticWebAssets.props",

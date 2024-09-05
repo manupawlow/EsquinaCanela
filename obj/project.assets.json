@@ -705,11 +705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/EsquinaCanela.csproj",
+      "projectUniqueName": "/Users/mpawlow/Desktop/yo/EsquinaCanela/EsquinaCanela.csproj",
       "projectName": "EsquinaCanela",
-      "projectPath": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/EsquinaCanela.csproj",
+      "projectPath": "/Users/mpawlow/Desktop/yo/EsquinaCanela/EsquinaCanela.csproj",
       "packagesPath": "/Users/mpawlow/.nuget/packages/",
-      "outputPath": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/obj/",
+      "outputPath": "/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mpawlow/.nuget/NuGet/NuGet.Config"

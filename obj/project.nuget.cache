@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MFJvLZ+uB48=",
+  "dgSpecHash": "idDKhYlxXUE=",
   "success": true,
-  "projectFilePath": "/Users/mpawlow/Desktop/yo/dotnet/EsquinaCanela/EsquinaCanela.csproj",
+  "projectFilePath": "/Users/mpawlow/Desktop/yo/EsquinaCanela/EsquinaCanela.csproj",
   "expectedPackageFiles": [
     "/Users/mpawlow/.nuget/packages/microsoft.aspnetcore.authorization/8.0.6/microsoft.aspnetcore.authorization.8.0.6.nupkg.sha512",
     "/Users/mpawlow/.nuget/packages/microsoft.aspnetcore.components/8.0.6/microsoft.aspnetcore.components.8.0.6.nupkg.sha512",

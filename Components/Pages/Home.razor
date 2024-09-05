@@ -2,48 +2,72 @@
 
 <PageTitle>Esquina Canela</PageTitle>
 
-<MudImage Src="home.png" Alt="Home" Class="rounded-lg" style="width: 100%; max-height: 500px;"/>
+@* <div style="width: 100%; height: 100vh; background-color: #AAA;"></div> *@
 
-<MudButton Color="Color.Primary">Primary</MudButton>
-<MudButton Color="Color.Primary">PrimaryLighten</MudButton>
-<MudButton Color="Color.Secondary">Secondary</MudButton>
+@* Banner: home image with text *@
+<ImageGradient Src="home.jpg" Height="90vh" BottomLeft>
+    <div style="color: white; max-width: 320px; margin: 30px 60px;">
+        <div style="text-overflow: clip;"><p class="retroSignature-xl" style="font-size: 6.3rem;">Nosotros</p></div>
+        <p>Somos un local familiar, amantes de la pastelería y llevamos mas de 10 años en el rubro.</p>
+    </div>
+</ImageGradient>
 
-<MudText Typo="Typo.h3" GutterBottom="true" id="h©ome">Hello, world!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudDivider />
+@* Cakes *@
+<MudText Class="retroSignature-xl" Style="margin: 10vh auto; text-align: center;">Conocé nuestras delicias</MudText>
 
-<MudText Typo="Typo.h3" GutterBottom="true" id="menu">Menú</MudText>
-@((MarkupString)_menuSvg)
-<MudDivider />
+@* <Gallery /> *@
+<Gallery>
+    <MainItems>
+        <GalleryItem Src="images/cheese-cake.jpeg" Title="Cheese cake" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/oreo-cake.jpeg" Title="Torta Oreo" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/rogel-cake.jpeg" Title="Rogel" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/marquise-cake.jpg" Title="Marquise" Description="Oreos, crema, dulce de leche" />
+    </MainItems>
+    <MoreItems>
+        <GalleryItem Src="images/carrot-cake.png" Title="Carrot Cake" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/ddl-cake.png" Title="Dulce de leche" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/lemon-cake.jpeg" Title="Tarta limón" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/ricota.png" Title="Ricotta" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/roll.png" Title="Rolls" Description="Canela, manzana o frutos del bosque" />
+        <GalleryItem Src="images/scon-jyq.png" Title="Scon" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/tartas.png" Title="Tartas" Description="Oreos, crema, dulce de leche" />
+        <GalleryItem Src="images/cookies.png" Title="Masitas" Description="Oreos, crema, dulce de leche" />
+    </MoreItems>
+</Gallery>
 
-<MudText Typo="Typo.h3" GutterBottom="true" id="services">Servicios</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
+@* Recommended *@
+<Recommended>
+    <RecomendedItem Name="Tokio" Description="Verduras grilladas, teriyaki semillas - Opción brie"/>
+    <RecomendedItem Name="Mar Griego" Description="Atún, queso crema, olivas ytomate"/>
+    <RecomendedItem Name="Ternerita" Description="Carne braseada y fondo"/>
+    <RecomendedItem Name="Tarta" Description="Ratatouille"/>
+    <RecomendedItem Name="Tarta" Description="Zapallitos"/>
+</Recommended>
 
-<MudDivider />
-
-<MudText Typo="Typo.h3" GutterBottom="true" id="contact">Contacto</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-<MudText>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non cum, enim nostrum nobis mollitia natus minus vitae, autem dicta consequuntur, dolore optio. Sequi asperiores sint dicta, eligendi a reprehenderit quia!</MudText>
-
-@code {
-    private string _menuSvg;
-
-    protected override void OnInitialized()
-    {
-        _menuSvg = File.ReadAllText("wwwroot/Frame.svg")
-            .Replace("{0}", "10.000")
-            .Replace("{1}", "350");
-    }   
-}
+@* Footer *@
+<ImageGradient Src="images/footer.jpeg" Height="400px" Centered GradientEnd="#0007">
+    <div class="bourtonLineMedium" style="font-size: 1.5rem;">
+        <MudStack Justify="Justify.Center" AlignItems="AlignItems.Center">
+            <MudStack Justify="Justify.Center" Row>
+                <a href="https://www.instagram.com/esquina.canela" target="_blank">
+                <img src="images/instagram-icon.svg" style="width: 60px;">
+                </a>
+                <a href="https://www.facebook.com/esquinacanela" target="_blank">
+                    <img src="images/facebook-icon.svg" style="width: 60px;">
+                </a>
+            </MudStack>
+            <MudElement HtmlTag="a" style="color: white;" href="mailto:info@esquinacanela.com.ar">info@esquinacanela.com.ar</MudElement>
+            <span>
+                <MudElement HtmlTag="a" style="color: white;" href="tel:+5447463070">(011) 4746-3070</MudElement>
+                <span> | </span>
+                <MudElement HtmlTag="a" style="color: white;" href="tel:+5491127039300">+5491127039300</MudElement>
+            </span>
+            <MudElement HtmlTag="a" style="color: white;" href="http://maps.google.com/?q=esquina canela" target="blank">
+                <MudIcon Style="color: white;" Icon="@Icons.Material.Filled.LocationOn" Size="Size.Small" />
+                Av. del Libertador 2701, Victoria
+            </MudElement>
+        </MudStack>
+    </div>
+</ImageGradient>
