@@ -1,0 +1,98 @@
+is_global = true
+build_property.MudDebugAnalyzer = 
+build_property.MudAllowedAttributePattern = 
+build_property.MudIllegalParameters = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EsquinaCanela
+build_property.RootNamespace = EsquinaCanela
+build_property.ProjectDir = /Users/mpawlow/Desktop/yo/EsquinaCanela/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/mpawlow/Desktop/yo/EsquinaCanela
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Pages/Home2.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/Banner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvQmFubmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/CakeCorousel/CakeCarousel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvQ2FrZUNvcm91c2VsL0Nha2VDYXJvdXNlbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/CakeCorousel/CakeCarouselImage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvQ2FrZUNvcm91c2VsL0Nha2VDYXJvdXNlbEltYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/ImageWithText.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvSW1hZ2VXaXRoVGV4dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/Recomended/Recomended.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvUmVjb21lbmRlZC9SZWNvbWVuZGVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/Recomended/RecomendedItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvUmVjb21lbmRlZC9SZWNvbWVuZGVkSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/RecommendedItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9SZWNvbW1lbmRlZEl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Gallery.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9HYWxsZXJ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-8a19x14zne
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/GalleryItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9HYWxsZXJ5SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-4vrmhc1eho
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/ImageGradient.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9JbWFnZUdyYWRpZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rnbe3ed3fk
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Recommended.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9SZWNvbW1lbmRlZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ody2pd6t4v

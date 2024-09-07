@@ -1,0 +1,30 @@
+div {
+    color: white;
+    max-width: 320px; 
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 5em;
+}
+
+.text {
+    font-size: 1em;
+    max-width: min(320px, 70vw);
+}
+
+@media only screen and (min-width: 426px) {
+    div {
+        margin-left: 80px;
+        margin-bottom: 60px;
+    }
+  
+    .title {
+        font-size: 7em;
+    }
+    
+    .text {
+        font-size: 1.5em;
+    }
+}

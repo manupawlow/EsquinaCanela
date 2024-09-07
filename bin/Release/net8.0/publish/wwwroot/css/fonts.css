@@ -1,0 +1,57 @@
+@font-face {  
+    font-family: BourtonBaseDrop;
+    src: url('../fonts/Bourton/BourtonBaseDrop.ttf') format("truetype");
+}
+
+@font-face {  
+    font-family: BourtonLineMedium;
+    src: url('../fonts/Bourton/BourtonLineMedium.ttf') format("truetype");
+}
+
+@font-face {  
+    font-family: RetroSignature;
+    src: url('../fonts/RetroSignature/RetroSignature.otf') format("opentype");
+}
+
+.bourtonBaseDrop {
+    font-family: BourtonBase;
+}
+
+.bourtonLineMedium {
+    font-family: BourtonLineMedium;
+}
+
+.retroSignature-xl {
+    font-family: RetroSignature;
+    line-height: 1;
+    margin-bottom: -15px;
+    font-size: 120px;
+}
+
+.retroSignature-l {
+    font-family: RetroSignature;
+    line-height: 1;
+    margin-bottom: -15px;
+    font-size: 90px;
+}
+
+.retroSignature-m {
+    font-family: RetroSignature;
+    line-height: 1;
+    margin-bottom: -15px;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 300px) {
+    .retroSignature-xl {
+        font-size: 70px;
+    }
+    
+    .retroSignature-l {
+        font-size: 40px;
+    }
+    
+    .retroSignature-m {
+        font-size: 30px;
+    }    
+}
