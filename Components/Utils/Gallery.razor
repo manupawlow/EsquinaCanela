@@ -1,20 +1,18 @@
-﻿  <div class="container">
-    @MainItems
-    
-    @if (_seeMore) {
-      @MoreItems
-    }
-  </div>
-
-<div style="width: 100%; text-align: center; margin: 15px auto;">
-  <MudButton Color="Color.Primary" Variant="Variant.Filled" style="border-radius: 20px; min-width: min(250px, 100vw);" OnClick="ToggleSeeMore">
-    @(_seeMore ? "Ver menos" : "Ver más")
-  </MudButton>
+﻿<div class="container">
+  @MainItems
+  
+  @if (_seeMore) {
+    @MoreItems
+  }
 </div>
 
+<RoundButton OnClick="ToggleSeeMore" Margin="5vh auto">
+  @(_seeMore ? "Ver menos" : "Ver más")
+</RoundButton>
+
 @code {
-  [Parameter]public RenderFragment MainItems { get; set; }
-  [Parameter]public RenderFragment MoreItems { get; set; }
+  [Parameter]public RenderFragment? MainItems { get; set; }
+  [Parameter]public RenderFragment? MoreItems { get; set; }
   
   private bool _seeMore;
 

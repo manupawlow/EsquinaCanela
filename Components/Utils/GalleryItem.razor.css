@@ -22,10 +22,11 @@
 
 .title {
   padding-bottom: 10px;
+  font-size: 4em;
 }
 
 .item {
-  width: 300px;
+  width: 25%;
   height: 450px;
   position: relative;
   flex-grow: 1;

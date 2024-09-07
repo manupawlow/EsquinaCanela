@@ -3,12 +3,6 @@
   flex-wrap: wrap;
 }
 
-.button {
-  border-radius: 20px; 
-  margin: 15px auto; 
-  width: 250px;
-}
-
 .item {
   width: 300px;
   height: 450px;

@@ -45,8 +45,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/Banner.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvQmFubmVyLnJhem9y
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/BannerOld.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9PbGQvQmFubmVyT2xkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Old/CakeCorousel/CakeCarousel.razor]
@@ -77,9 +77,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9SZWNvbW1lbmRlZEl0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/RoundButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9Sb3VuZEJ1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Banner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9CYW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bmzaotim4p
 
 [/Users/mpawlow/Desktop/yo/EsquinaCanela/Components/Utils/Gallery.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9VdGlscy9HYWxsZXJ5LnJhem9y

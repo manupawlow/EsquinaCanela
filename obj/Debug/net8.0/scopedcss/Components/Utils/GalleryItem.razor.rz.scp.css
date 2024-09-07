@@ -22,10 +22,11 @@ img[b-4vrmhc1eho] {
 
 .title[b-4vrmhc1eho] {
   padding-bottom: 10px;
+  font-size: 4em;
 }
 
 .item[b-4vrmhc1eho] {
-  width: 300px;
+  width: 25%;
   height: 450px;
   position: relative;
   flex-grow: 1;

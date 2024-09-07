@@ -17,11 +17,11 @@
 <MudLayout>
     <MudAppBar Elevation="0" class="d-none d-sm-flex">
         <MudStack Justify="Justify.SpaceEvenly" Row="true" Style="width: 100%; align-items: center;">
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Href="#">Menú</MudLink>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Href="#">Nuestras tortas</MudLink>
-            <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 rounded-lg" style="height: 50px;"/>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Href="#">Donde estamos</MudLink>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Href="#">Contactanos</MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Menú</MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Nuestras tortas</MudLink>
+            <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 rounded-lg" Style="height: 50px;"/>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Donde estamos</MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Contactanos</MudLink>
         </MudStack>
     </MudAppBar>
     
@@ -32,14 +32,13 @@
     </MudAppBar>
     <MudDrawer @bind-Open="@_drawerOpen" Elevation="1" Variant="@DrawerVariant.Temporary">
         <MudDrawerHeader>
-            <MudText Typo="Typo.h6">Esquina canela</MudText>
+            <MudText Typo="Typo.h6" Class="retroSignature">Esquina canela</MudText>
         </MudDrawerHeader>
         <MudNavMenu Color="Color.Primary">
             <MudNavLink Href="#" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
             <MudNavLink Href="#menu" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.RestaurantMenu">Menú</MudNavLink>
             <MudNavLink Href="#services" Match="NavLinkMatch.Prefix" Icon="@Icons.Custom.Brands.Google">Servicios</MudNavLink>
             <MudNavLink Href="#contact" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.ContactPage">Contacto</MudNavLink>
-            <MudNavLink Icon="@(DarkLightModeButtonIcon)" OnClick="@DarkModeToggle" Style="position: fixed; bottom: 0px; width: 240px;">Modo @(_isDarkMode ? "claro" : "oscuro")</MudNavLink>
         </MudNavMenu>
     </MudDrawer>
     <MudMainContent Style="padding: 0;">
