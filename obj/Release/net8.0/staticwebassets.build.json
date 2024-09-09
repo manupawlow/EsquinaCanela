@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ezTChdY+qmh2JL0eSc5YaDBpuIaEdaCKJWX7Y6fwpIY=",
+  "Hash": "iGeNln3PwL3cXCzOpcEPxiCOQZU817y7tIDyLQ4WYdw=",
   "Source": "EsquinaCanela",
   "BasePath": "_content/EsquinaCanela",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/logo.svg"
+    },
+    {
+      "Identity": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/menu.svg",
+      "SourceId": "EsquinaCanela",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/",
+      "BasePath": "_content/EsquinaCanela",
+      "RelativePath": "menu.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/menu.svg"
     }
   ]
 }

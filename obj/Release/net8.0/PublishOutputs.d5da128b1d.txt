@@ -1,6 +1,7 @@
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/EsquinaCanela
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/appsettings.Development.json
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/appsettings.json
+/Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/file.json
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/EsquinaCanela.dll
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/EsquinaCanela.deps.json
 /Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/publish/EsquinaCanela.runtimeconfig.json

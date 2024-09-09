@@ -1,64 +1,61 @@
 ﻿@page "/"
 
+<style>
+    section {
+        margin-top: 10vh;
+        text-align: center;
+    }
+</style>
+
 <PageTitle>Esquina Canela</PageTitle>
 
-<Banner />
+<div style="margin-top: -64px;">
+    <Banner />
+</div>
 
-@* Cakes *@
-<MudText Class="retroSignature fs-5em" Style="margin: 10vh auto; text-align: center;">Conocé nuestras delicias</MudText>
+<section id="menu">
+    @* <MudText Class="retr
+    oSignature fs-5em" style="margin: 5vh auto;">Menú</MudText> *@
+    
+    <Recommended>
+        <RecommendedItem Name="Tokio" Description="Verduras grilladas, teriyaki semillas - Opción brie"/>
+        <RecommendedItem Name="Mar Griego" Description="Atún, queso crema, olivas ytomate"/>
+        <RecommendedItem Name="Ternerita" Description="Carne braseada y fondo"/>
+        <RecommendedItem Name="Tarta" Description="Ratatouille"/>
+        <RecommendedItem Name="Tarta" Description="Zapallitos"/>
+    </Recommended>
+</section>
 
-<Gallery>
-    <MainItems>
-        <GalleryItem Src="images/cheese-cake.jpeg" Title="Cheese cake" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/oreo-cake.jpeg" Title="Torta Oreo" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/rogel-cake.jpeg" Title="Rogel" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/marquise-cake.jpg" Title="Marquise" Description="Oreos, crema, dulce de leche" />
-    </MainItems>
-    <MoreItems>
-        <GalleryItem Src="images/carrot-cake.png" Title="Carrot Cake" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/ddl-cake.png" Title="Dulce de leche" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/lemon-cake.jpeg" Title="Tarta limón" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/ricota.png" Title="Ricotta" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/roll.png" Title="Rolls" Description="Canela, manzana o frutos del bosque" />
-        <GalleryItem Src="images/scon-jyq.png" Title="Scon" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/tartas.png" Title="Tartas" Description="Oreos, crema, dulce de leche" />
-        <GalleryItem Src="images/cookies.png" Title="Masitas" Description="Oreos, crema, dulce de leche" />
-    </MoreItems>
-</Gallery>
+<section id="delights">
+    <MudText Class="retroSignature fs-5em" style="margin: 5vh auto;">Conocé nuestras delicias</MudText>
 
-@* Recommended *@
-<Recommended>
-    <RecomendedItem Name="Tokio" Description="Verduras grilladas, teriyaki semillas - Opción brie"/>
-    <RecomendedItem Name="Mar Griego" Description="Atún, queso crema, olivas ytomate"/>
-    <RecomendedItem Name="Ternerita" Description="Carne braseada y fondo"/>
-    <RecomendedItem Name="Tarta" Description="Ratatouille"/>
-    <RecomendedItem Name="Tarta" Description="Zapallitos"/>
-</Recommended>
+    <Gallery>
+        <MainItems>
+            <GalleryItem Src="images/cheese-cake.jpeg" Title="Cheese cake" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/oreo-cake.jpeg" Title="Torta Oreo" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/rogel-cake.jpeg" Title="Rogel" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/marquise-cake.jpg" Title="Marquise" Description="Oreos, crema, dulce de leche" />
+        </MainItems>
+        <MoreItems>
+            <GalleryItem Src="images/carrot-cake.png" Title="Carrot Cake" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/ddl-cake.png" Title="Dulce de leche" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/lemon-cake.jpeg" Title="Tarta limón" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/lemonslice-cake.jpeg" Title="Lemon pie" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/ricota.png" Title="Ricotta" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/roll.png" Title="Rolls" Description="Canela, manzana o frutos del bosque" />
+            <GalleryItem Src="images/scon-jyq.png" Title="Scon" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/tartas.png" Title="Tartas" Description="Oreos, crema, dulce de leche" />
+            <GalleryItem Src="images/cookies.png" Title="Masitas" Description="Oreos, crema, dulce de leche" />
+        </MoreItems>
+    </Gallery>
+</section>
 
-@* Footer *@
-<ImageGradient Src="images/footer.jpeg" Height="400px" Centered GradientEnd="#0007">
-    <div class="bourtonLineMedium" >
-        <MudStack Justify="Justify.Center" AlignItems="AlignItems.Center">
-            <MudStack Justify="Justify.Center" Row>
-                <a href="https://www.instagram.com/esquina.canela" target="_blank">
-                <img src="images/instagram-icon.svg" style="width: 60px;">
-                </a>
-                <a href="https://www.facebook.com/esquinacanela" target="_blank">
-                    <img src="images/facebook-icon.svg" style="width: 60px;">
-                </a>
-            </MudStack>
-            <MudElement HtmlTag="a" style="color: white;" href="mailto:info@esquinacanela.com.ar">info@esquinacanela.com.ar</MudElement>
-            <span>
-                <MudElement HtmlTag="a" style="color: white;" href="tel:+5447463070">(011) 4746-3070</MudElement>
-                <span style="color: white;"> | </span>
-                <MudElement HtmlTag="a" style="color: white;" href="tel:+5491127039300">+5491127039300</MudElement>
-            </span>
-            <MudElement HtmlTag="a" style="color: white;" href="http://maps.google.com/?q=esquina canela" target="blank">
-                <MudIcon Style="color: white;" Icon="@Icons.Material.Filled.LocationOn" Size="Size.Small" />
-                Av. del Libertador 2701, Victoria
-            </MudElement>
-        </MudStack>
-    </div>
-</ImageGradient>
+<section id="order">
+    <MudText Class="retroSignature fs-5em" style="margin: 5vh auto;">Hacenos tu pedido</MudText>
+    <MakeYourOrder />
+</section>
+
+<section id="footer">
+    <Footer />
+</section>

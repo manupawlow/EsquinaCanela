@@ -44,3 +44,8 @@
 /Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/EsquinaCanela.pdb
 /Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/EsquinaCanela.genruntimeconfig.cache
 /Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/ref/EsquinaCanela.dll
+/Users/mpawlow/Desktop/yo/EsquinaCanela/bin/Release/net8.0/file.json
+/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/scopedcss/Components/Utils/Banner.razor.rz.scp.css
+/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/scopedcss/Components/Pages/Menu.razor.rz.scp.css
+/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/scopedcss/Components/Utils/Footer.razor.rz.scp.css
+/Users/mpawlow/Desktop/yo/EsquinaCanela/obj/Release/net8.0/scopedcss/Components/Utils/MakeYourOrder.razor.rz.scp.css

@@ -1,9 +1,14 @@
+/* _content/EsquinaCanela/Components/Pages/Menu.razor.rz.scp.css */
+img[b-dmlmnbfb2s] {
+    margin: 0 auto;
+    width: min(100vw, 1000px);
+}
 /* _content/EsquinaCanela/Components/Utils/Banner.razor.rz.scp.css */
-div[b-bmzaotim4p] {
+.content[b-bmzaotim4p] {
     color: white;
     max-width: 320px; 
-    margin-left: 10%;
-    margin-bottom: 30px;
+    margin-left: 6vw;
+    margin-bottom: 40px;
 }
 
 .title[b-bmzaotim4p] {
@@ -28,6 +33,10 @@ div[b-bmzaotim4p] {
     .text[b-bmzaotim4p] {
         font-size: 1.5em;
     }
+}
+/* _content/EsquinaCanela/Components/Utils/Footer.razor.rz.scp.css */
+*[b-dxl0w8qc7c] {
+    color: white;
 }
 /* _content/EsquinaCanela/Components/Utils/Gallery.razor.rz.scp.css */
 .container[b-8a19x14zne] {
@@ -129,10 +138,36 @@ img[b-4vrmhc1eho] {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 100%;
+  width: 100%;
   /* white-space: nowrap; */
   overflow: hidden;
   text-overflow: ellipsis;
+}
+/* _content/EsquinaCanela/Components/Utils/MakeYourOrder.razor.rz.scp.css */
+.line[b-qynhan4031] {
+  overflow: hidden;
+  text-align: center;
+}
+
+.line[b-qynhan4031]::before,
+.line[b-qynhan4031]::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.line[b-qynhan4031]::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.line[b-qynhan4031]::after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 /* _content/EsquinaCanela/Components/Utils/Recommended.razor.rz.scp.css */
 .container[b-ody2pd6t4v] {
@@ -140,7 +175,7 @@ img[b-4vrmhc1eho] {
   display: flex;
   flex-wrap: wrap;
   font-size: 30px;
-  margin: 10vh auto; 
+  margin: 0 auto; 
   width: 90vw;
   border-radius: 20px;
 }
@@ -166,6 +201,7 @@ img[b-ody2pd6t4v] {
 .title[b-ody2pd6t4v] {
   font-size: 2.5em;
   position: relative;
+  text-align: start;
 }
 
 .title[b-ody2pd6t4v]::after {

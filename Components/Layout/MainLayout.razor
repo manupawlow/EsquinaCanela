@@ -16,32 +16,37 @@
 
 <MudLayout>
     <MudAppBar Elevation="0" class="d-none d-sm-flex">
-        <MudStack Justify="Justify.SpaceEvenly" Row="true" Style="width: 100%; align-items: center;">
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Menú</MudLink>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Nuestras tortas</MudLink>
-            <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 rounded-lg" Style="height: 50px;"/>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Donde estamos</MudLink>
-            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px;" Href="#">Contactanos</MudLink>
+        <MudStack Justify="Justify.SpaceAround" Row="true" Style="width: 100%; align-items: center;">
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px; width: 25%; text-align: center;" Href="#menu">Menú</MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px; width: 25%; text-align: center;" Href="#delights">Nuestras delicias</MudLink>
+            <MudLink Href="#" Style="display: flex; align-center: center; width: 25%; justify-content: center;">
+                <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 rounded-lg" Style="height: 50px;"/>
+            </MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px; width: 25%; text-align: center;" Href="#order">Hacenos tu pedido</MudLink>
+            <MudLink Color="Color.Inherit" Underline="Underline.None" Class="ml-6 hover-primary" Style="font-size: 16px; width: 25%; text-align: center;" Href="#footer">Contactanos</MudLink>
         </MudStack>
     </MudAppBar>
     
     <MudAppBar Elevation="0" class="d-flex d-sm-none">
-        <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 p-1 rounded-lg" style="height: 45px;"/>
+        <MudLink Href="#" Style="display: flex; align-center: center; width: 25%; justify-content: center;">
+            <MudImage Src="logo.svg" Alt="Logo" Class="mx-3 rounded-lg" Style="height: 50px;"/>
+        </MudLink>
         <MudSpacer />
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@DrawerToggle" />
     </MudAppBar>
+
     <MudDrawer @bind-Open="@_drawerOpen" Elevation="1" Variant="@DrawerVariant.Temporary">
         <MudDrawerHeader>
-            <MudText Typo="Typo.h6" Class="retroSignature">Esquina canela</MudText>
+            <MudText Typo="Typo.h6" Class="retroSignature" style="font-size: 48px;">Esquina canela</MudText>
         </MudDrawerHeader>
         <MudNavMenu Color="Color.Primary">
-            <MudNavLink Href="#" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
-            <MudNavLink Href="#menu" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.RestaurantMenu">Menú</MudNavLink>
-            <MudNavLink Href="#services" Match="NavLinkMatch.Prefix" Icon="@Icons.Custom.Brands.Google">Servicios</MudNavLink>
-            <MudNavLink Href="#contact" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.ContactPage">Contacto</MudNavLink>
+            <MudNavLink Href="#menu" Icon="@Icons.Material.Filled.RestaurantMenu">Menú</MudNavLink>
+            <MudNavLink Href="#delights" Icon="@Icons.Material.Filled.Coffee">Nuestras delicias</MudNavLink>
+            <MudNavLink Href="#order" Icon="@Icons.Material.Filled.Phone">Hacenos tu pedido</MudNavLink>
+            <MudNavLink Href="#footer" Icon="@Icons.Material.Filled.LocationOn">Contactanos</MudNavLink>
         </MudNavMenu>
     </MudDrawer>
-    <MudMainContent Style="padding: 0;">
+    <MudMainContent Style="padding: 0; padding-top: 64px;">
         @Body
     </MudMainContent>
 </MudLayout>

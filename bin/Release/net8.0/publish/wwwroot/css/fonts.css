@@ -21,37 +21,19 @@
     font-family: BourtonLineMedium;
 }
 
-.retroSignature-xl {
+.retroSignature {
     font-family: RetroSignature;
     line-height: 1;
-    margin-bottom: -15px;
-    font-size: 120px;
+    /* font-size: xxx-large; */
+    /* margin-bottom: -15px; */
 }
 
-.retroSignature-l {
-    font-family: RetroSignature;
-    line-height: 1;
-    margin-bottom: -15px;
-    font-size: 90px;
+.fs-5em {
+    font-size: 5em;
 }
 
-.retroSignature-m {
-    font-family: RetroSignature;
-    line-height: 1;
-    margin-bottom: -15px;
-    font-size: 60px;
-}
-
-@media only screen and (max-width: 300px) {
-    .retroSignature-xl {
-        font-size: 70px;
+@media only screen and (min-width: 1024px) {   
+    html {
+        /* font-size: 20px; */
     }
-    
-    .retroSignature-l {
-        font-size: 40px;
-    }
-    
-    .retroSignature-m {
-        font-size: 30px;
-    }    
 }

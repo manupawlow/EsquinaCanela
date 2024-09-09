@@ -1,0 +1,75 @@
+﻿@using System;
+@using System.IO;
+@using System.Text;
+@using System.Text.Json;
+
+@layout AdminLayout
+@page "/admin"
+
+<h3>Admin</h3>
+
+@foreach(var item in items) 
+{
+    <InputText @bind-Value="item.Name" />
+    <InputNumber @bind-Value="item.Price" />
+    <button @onclick="() => Remove(item)">X</button>
+    <br>
+}
+<div style="border: 1px; margin-top: 20px;">
+    <p>Agregar nuevo producto</p>
+    <InputText @bind-Value="Input.Name" placeholder="Nombre del producto"/>
+    <InputNumber @bind-Value="Input.Price" placeholder="Precio del producto" />
+    <br>
+    <button @onclick="AddNewItem">Agregar</button>
+</div>
+
+<br>
+<br>
+
+@string.Join(" | ", items.Select(x => x.Name + ": $" + x.Price))
+<br>
+<button @onclick="Save">Save</button>
+
+@code {
+    private static string PATH = "file.json";
+    private List<Item> items = [];
+    private Item Input = new();
+    private string error = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try {
+            var fileContent = File.ReadAllText(PATH);
+            items = JsonSerializer.Deserialize<List<Item>>(fileContent);
+        }
+        catch (Exception e) {
+            error = e.Message;
+        }
+    }
+
+    protected void Save()
+    {
+        try {
+            var path = "file.json";
+            var content = JsonSerializer.Serialize<List<Item>>(items);
+            File.WriteAllText(path, content);
+        }
+        catch (Exception e) {
+            error = e.Message;
+        }
+    }
+
+    private void AddNewItem() {
+        items.Add(Input);
+        Input = new();
+    }
+
+    private void Remove(Item item) {
+        items.Remove(item);
+    }
+
+    class Item {
+        public string Name { get; set; }
+        public int Price { get; set; }
+    }
+}

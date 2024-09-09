@@ -237,6 +237,10 @@
       "PackagePath": "staticwebassets/logo_2.svg"
     },
     {
+      "Id": "/Users/mpawlow/Desktop/yo/EsquinaCanela/wwwroot/menu.svg",
+      "PackagePath": "staticwebassets/menu.svg"
+    },
+    {
       "Id": "obj/Release/net8.0/staticwebassets/msbuild.EsquinaCanela.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

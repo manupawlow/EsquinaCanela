@@ -6,13 +6,16 @@
   }
 </div>
 
-<RoundButton OnClick="ToggleSeeMore" Margin="5vh auto">
-  @(_seeMore ? "Ver menos" : "Ver más")
-</RoundButton>
+<MudButton 
+        style="border-radius: 20px; padding-inline: 20px; margin: 10px auto;" 
+        EndIcon="@(_seeMore ? Icons.Material.Filled.ArrowDropUp : Icons.Material.Filled.ArrowDropDown)"
+        OnClick="ToggleSeeMore">
+    @(_seeMore ? "Ver menos" : "Ver más")
+</MudButton>
 
 @code {
-  [Parameter]public RenderFragment? MainItems { get; set; }
-  [Parameter]public RenderFragment? MoreItems { get; set; }
+  [Parameter] public RenderFragment? MainItems { get; set; }
+  [Parameter] public RenderFragment? MoreItems { get; set; }
   
   private bool _seeMore;
 

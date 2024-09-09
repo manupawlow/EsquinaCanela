@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 30px;
-  margin: 10vh auto; 
+  margin: 0 auto; 
   width: 90vw;
   border-radius: 20px;
 }
@@ -29,6 +29,7 @@ img[b-ody2pd6t4v] {
 .title[b-ody2pd6t4v] {
   font-size: 2.5em;
   position: relative;
+  text-align: start;
 }
 
 .title[b-ody2pd6t4v]::after {
