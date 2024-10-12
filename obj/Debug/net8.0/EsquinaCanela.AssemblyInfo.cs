@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsquinaCanela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c0dd6d06e986670979d771ee5bb32b572ac7524")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7205fae92a7b40104d1ac2e92e0a62ba52ffee22")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsquinaCanela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsquinaCanela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
